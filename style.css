@@ -1,0 +1,60 @@
+body {
+  background: url('fuji.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 60px;
+}
+
+h1 {
+  font-weight: normal;
+  color: white;
+  letter-spacing: 4.5px;
+  font-size: 50px;
+  padding-bottom: 0;
+  margin-bottom: 9;
+  text-emphasis-color: 5px;
+}
+
+h2 {
+  color: powderblue;
+  font-size: 18px;
+  letter-spacing: 9px;
+  outline-style: solid;
+  outline-width: 10px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.bio {
+  color: white;
+  text-align: center;
+
+}
+
+.me {
+  align-content: center;
+  margin-bottom: 0px;
+  height: 400px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: powderblue;
+  border-width: 10px;
+}
+
+.about {
+
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grey {
+  height: 3px;
+  background-color: pink;
+  border: none;
+  width: 100px;
+}
