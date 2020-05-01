@@ -1,4 +1,4 @@
-body {
+.about-container {
   background: url('fuji.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -44,7 +44,7 @@ h2 {
   border-width: 10px;
 }
 
-.about {
+.about-container {
 
   width: 400px;
   margin-left: auto;
