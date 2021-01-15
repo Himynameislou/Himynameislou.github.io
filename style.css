@@ -1,17 +1,10 @@
 body {
-  background: url('aust.jpg');
+  background: url('aust copy.jpg');
   background-size: cover;
+  /* position: fixed; */
 }
 
-body::after {
-  background: url('aust.jpg');
-  content: "";
-  z-index: -1;
-  background-size: cover;
-  opacity: 0.1;
-}
-
-.container {
+.splash {
   font-family: 'Noto Sans', sans-serif;
   padding-top: 60px;
 }
@@ -21,61 +14,47 @@ body::after {
 #mePic {
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
-  max-width: 50%;
-  height: auto;
-  background: powderblue;
+  max-width: 40%;
+  background:#A0FFFF;
   border-radius: 100%;
   border-style: solid;
-  border-color: powderblue;
+  border-color: #A0FFFF;
   border-width: 10px;
 }
 
 
 h1 {
-  /* text-align: center; */
-  font-weight: normal;
-  color: white;
+  font-weight: bolder;
+  color:#639E9E;
   letter-spacing: 4.5px;
   font-size: 50px;
   padding-bottom: 9;
   margin-bottom: 9;
-  text-emphasis-color: 5px;
+  text-emphasis-color: 50px;
+  
 }
 
 h2 {
-  /* align text-align: center; */
-  display: inline-block;
-  color: powderblue;
+  color:#FFFFA0;
   font-size: 18px;
   letter-spacing: 9px;
-
-  border: 5px solid powderblue;
-  /* outline-style: solid;
-  outline-width: 10px; */
-  margin-top: 0;
-  margin-bottom: 30px;
+  border: 5px solid #A0FFFF;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.2)
 }
 
 .bio {
   color: white;
+  font-size: 1em;
   /* text-align: center; */
 
 }
 
-
-/* .about-container {
-
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-} */
-
 .lineDivider {
-  height: 3px;
-  background-color: pink;
   border: none;
-  width: 100px;
+  height: 1px;
+  background-color: pink;
   padding-bottom: 10px;
+  opacity: 100;
 }
