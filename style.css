@@ -1,66 +1,81 @@
 body {
-  background: url('aust.jpg') no-repeat center center fixed;
+  background: url('aust.jpg');
   background-size: cover;
 }
-.container {
-  display: flex;
-  flex-wrap: wrap;
 
+body::after {
+  background: url('aust.jpg');
+  content: "";
+  z-index: -1;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.container {
   font-family: 'Noto Sans', sans-serif;
   padding-top: 60px;
 }
 
-.me {
-  margin-bottom: 0px;
-  height: 400px;
+.picture {}
+
+#mePic {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-width: 50%;
+  height: auto;
+  background: powderblue;
   border-radius: 100%;
   border-style: solid;
   border-color: powderblue;
   border-width: 10px;
 }
 
+
 h1 {
-  text-align: center;
+  /* text-align: center; */
   font-weight: normal;
   color: white;
   letter-spacing: 4.5px;
   font-size: 50px;
-  padding-bottom: 0;
+  padding-bottom: 9;
   margin-bottom: 9;
   text-emphasis-color: 5px;
 }
 
 h2 {
-  align
-  text-align: center;
-  width: min-content;
+  /* align text-align: center; */
+  display: inline-block;
   color: powderblue;
   font-size: 18px;
   letter-spacing: 9px;
-  outline-style: solid;
-  outline-width: 10px;
+
+  border: 5px solid powderblue;
+  /* outline-style: solid;
+  outline-width: 10px; */
   margin-top: 0;
   margin-bottom: 30px;
 }
 
 .bio {
   color: white;
-  text-align: center;
+  /* text-align: center; */
 
 }
 
 
-.about-container {
+/* .about-container {
 
   width: 400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
+} */
 
 .lineDivider {
   height: 3px;
   background-color: pink;
   border: none;
   width: 100px;
+  padding-bottom: 10px;
 }
