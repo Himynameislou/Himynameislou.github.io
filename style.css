@@ -9,15 +9,10 @@ body {
   padding-top: 60px;
 }
 
-.picture {}
+.pic {}
 
 #mePic {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
-  max-height: 50%;
-  /* max-width: 40%; */
-  background:#A0FFFF;
+  background: #A0FFFF;
   border-radius: 100%;
   border-style: solid;
   border-color: #A0FFFF;
@@ -27,17 +22,17 @@ body {
 
 h1 {
   font-weight: bolder;
-  color:#639E9E;
+  color: #639E9E;
   letter-spacing: 4.5px;
   font-size: 50px;
   padding-bottom: 9;
   margin-bottom: 9;
   text-emphasis-color: 50px;
-  
+
 }
 
 h2 {
-  color:#FFFFA0;
+  color: #FFFFA0;
   font-size: 18px;
   letter-spacing: 9px;
   border: 5px solid #A0FFFF;
@@ -59,4 +54,5 @@ h2 {
   background-color: pink;
   padding-bottom: 10px;
   opacity: 100;
+  gi
 }
