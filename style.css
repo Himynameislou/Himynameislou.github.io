@@ -20,7 +20,7 @@
 }
 
 .splash {
-  position: relative;
+  position: relative; /*added this line so elements within wouldnt be affected by the background image*/
   font-family: 'Noto Sans', sans-serif;
   padding-top: 60px;
 }
@@ -36,7 +36,7 @@
 
 
 h1 {
-  position: relative;
+  position: relative; /*added this line so elements within wouldnt be affected by the background image*/
   font-weight: bolder;
   color: #639E9E;
   letter-spacing: 4.5px;
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  position: relative;
+  position: relative; /*added this line so elements within wouldnt be affected by the background image*/
   color: #FFFFA0;
   font-size: 18px;
   letter-spacing: 9px;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .bio {
-  position: relative;
+  position: relative; /*added this line so elements within wouldnt be affected by the background image*/
   color: white;
   font-size: 1em;
   /* text-align: center; */
@@ -67,7 +67,7 @@ h2 {
 }
 
 .lineDivider {
-  position: relative;
+  position: relative; /*added this line so elements within wouldnt be affected by the background image*/
   border: none;
   height: 1px;
   background-color: pink;
