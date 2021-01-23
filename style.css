@@ -1,9 +1,12 @@
 #city {
-  background: url('aust copy.jpg');
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-  /* content: ""; */
+	background: url('road.png');
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+	/* content: ""; */
+}
+
+#wrapper {
 }
 
 /* body {
@@ -12,54 +15,80 @@
 } */
 
 .splash {
-  font-family: 'Noto Sans', sans-serif;
-  padding-top: 60px;
+	font-family: 'Noto Sans', sans-serif;
+	padding-top: 60px;
 }
 
-.pic {}
+.pic {
+}
 
 #mePic {
-  background: #A0FFFF;
-  border-radius: 100%;
-  border-style: solid;
-  border-color: #A0FFFF;
-  border-width: 10px;
+	background: #a0ffff;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: #a0ffff;
+	border-width: 10px;
 }
 
-
-h1 {
-  font-weight: bolder;
-  color: #639E9E;
-  letter-spacing: 4.5px;
-  font-size: 50px;
-  padding-bottom: 9;
-  margin-bottom: 9;
-  text-emphasis-color: 50px;
-
+#sBorder {
 }
 
-h2 {
-  color: #FFFFA0;
-  font-size: 18px;
-  letter-spacing: 9px;
-  border: 5px solid #A0FFFF;
-  margin: 0;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.2)
+#sL1 {
+	border-top: 2px solid white;
+	width: 10%;
 }
+#sL2 {
+	border-top: 2px solid white;
+	width: 20%;
+}
+#sL3 {
+	border-top: 2px solid white;
+	width: 30%;
+}
+#sL4 {
+	border-top: 2px solid white;
+	width: 40%;
+}
+#sL5 {
+	border-top: 4px solid white;
+	width: 50%;
+}
+
+#sH1 {
+	font-weight: bolder;
+	color: #fff;
+	letter-spacing: 8px;
+	font-size: 3.5rem;
+	text-align: center;
+}
+#sH2 {
+	font-weight: bolder;
+	color: rgb(255, 254, 254);
+	letter-spacing: 15px;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+/* h2 {
+	color: #ffffa0;
+	font-size: 18px;
+	letter-spacing: 9px;
+	border: 5px solid rgb(49, 113, 129);
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+} */
 
 .bio {
-  color: white;
-  font-size: 1em;
-  /* text-align: center; */
-
+	color: white;
+	font-size: 1em;
+	/* text-align: center; */
 }
 
 .lineDivider {
-  border: none;
-  height: 1px;
-  background-color: pink;
-  padding-bottom: 10px;
-  opacity: 100;
-  gi
+	border: none;
+	height: 1px;
+	background-color: pink;
+	padding-bottom: 10px;
+	opacity: 100;
 }
