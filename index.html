@@ -12,20 +12,20 @@
 
 <body>
   <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-    <a href="#" class="navbar-brand">HOME</a>
+    <a href="#" class="navbar-brand" id="BRAND">HOME</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navLinks">
       <ul class="navbar-nav">
+        <!-- <li class="nav-item">
+          <a href="#" class="nav-link" id="NL">HOME</a>
+        </li> -->
         <li class="nav-item">
-          <a href="#" class="nav-link">HOME</a>
+          <a href="#" class="nav-link" id="NL">BIO</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">BIO</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">WORKS</a>
+          <a href="#" class="nav-link" id="NL">WORKS</a>
         </li>
       </ul>
     </div>
@@ -56,8 +56,36 @@
           <hr class="line" id="l6">
           <hr class="thickLine" id="l7">
         </div>
-
       </div>
+  </section>
+
+  <section class="container-fluid px-0" id="section2">
+    <div class="row align-items-center">
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab cum facere illo, consequatur magnam quos
+          doloribus nam perferendis animi quis sapiente pariatur delectus eaque, harum unde eligendi neque numquam
+          aperiam in eos quas? Maxime atque itaque tempore. Dignissimos amet sint voluptatem? Doloremque architecto
+          laudantium optio exercitationem ullam repellat autem officiis porro vero maxime magnam quidem commodi
+          incidunt, provident deleniti doloribus laboriosam et ad accusamus, non tempore. Ratione fugit reprehenderit
+          vel ex accusantium distinctio ipsam commodi laudantium explicabo ad quos assumenda, architecto cupiditate
+          perspiciatis, deserunt iste nisi rem consequatur quae! Numquam corporis saepe assumenda, blanditiis fuga quasi
+          dignissimos atque quibusdam eveniet a at, iusto aperiam sequi delectus recusandae necessitatibus sit
+          repellendus. Exercitationem odio, labore itaque alias fugiat dolore doloribus culpa adipisci quasi, est
+          nesciunt quaerat libero laboriosam. Sint eveniet nostrum cum. Inventore iure ad, dolorum excepturi sequi
+          corrupti consectetur et nihil vel ut vitae laborum, laboriosam tempora maiores quae ducimus numquam quaerat
+          consequatur commodi deserunt perspiciatis fuga reprehenderit sint? Blanditiis suscipit eligendi quae ab
+          molestiae enim tempore accusamus cupiditate voluptas dolorum voluptate architecto placeat, perspiciatis
+          numquam fuga at? Tempore, illo explicabo atque accusantium, iste voluptatum quam, quaerat blanditiis esse
+          deserunt incidunt sunt obcaecati dolores eveniet. Voluptatibus accusamus, alias aliquam officiis repudiandae
+          fugit nulla totam, porro quod consectetur perspiciatis saepe, repellat quibusdam? Rem fugit iste sit, magni,
+          voluptatem quia rerum saepe, iusto sapiente perferendis suscipit laborum pariatur minus dicta ut sint nemo ex?
+          Commodi, dicta. Iure nam rem aperiam pariatur dolor quam atque ad explicabo nihil vitae eius ab ducimus
+          inventore optio odio architecto reprehenderit debitis, qui, necessitatibus error fugit et placeat? Atque modi,
+          nisi repellendus natus culpa ipsam soluta, magnam qui blanditiis accusantium alias! Natus dolor praesentium
+          sequi dicta modi tempore reiciendis cumque? Harum laborum unde quibusdam odio labore autem dignissimos magnam
+          delectus nulla rem, ipsam, saepe perferendis ratione itaque!</p>
+      </div>
+    </div>
   </section>
 
 
@@ -71,6 +99,15 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
   </script>
 </body>
 
