@@ -5,199 +5,176 @@
 	position: relative;
 }
 .nameDev {
-	/* background: rgba(204, 204, 204, 0.5); opacity goes all the way from edge to edge */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .toplinework {
 	/* this div holds all of the top line work*/
 	margin-bottom: 0px;
 	height: 50px;
 }
+.line{
+  border-top: 2px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#l1 {
+  width: 10%;
+}
+#l2 {
+  width: 25%;
+}
+#l3 {
+  width: 35%;
+}
 
-.tL1 {
-	border-top: 2px solid white;
-	width: 10%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.tL2 {
-	border-top: 2px solid white;
-	width: 25%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.tL3 {
-	border-top: 2px solid white;
-	width: 35%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-/* 4-6 are the skinny slim margin lines above the thick sL7 line */
-.tL4 {
-	border-top: 2px solid white;
+#l4 {
 	width: 41%;
-	margin-top: 5px;
-	margin-bottom: 5px;
 }
-.tL5 {
-	border-top: 2px solid white;
-	width: 44%;
-	margin-top: 5px;
-	margin-bottom: 5px;
+#l5 {
+  width: 44%;
 }
-.tL6 {
-	border-top: 2px solid white;
-	width: 47%;
-	margin-top: 5px;
-	margin-bottom: 5px;
+#l6 {
+  width: 47%;
 }
-.tL7 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	/* height: 45px; */
+
+.thickLine{
+  margin-top: 5px;
+  margin-bottom: 0px;
 	border-top: 8px solid white;
-	width: 50%;
-	position: relative;
+  width: 50%;
+  position: relative;
 }
 
-.tl7::before {
-	content: '';
-	display: block;
-	position: absolute;
-	height: calc(2.5rem + 1px);
-	top: calc(-2.9rem - 2px);
-	left: calc(50% - 1px);
-	width: 2px;
-	background: white;
+.thickLine::before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: calc(2.5rem + 1px);
+  top: calc(-2.9rem - 2px);
+  left: calc(50% - 1px);
+  width: 2px;
+  background: white;
 }
 
-.sH1 {
+.sH1{
 	font-weight: bolder;
-	color: #98e2c5;
+	color: #A0FFFF;
 	letter-spacing: 8px;
 	font-size: 3.5rem;
-	text-align: center;
-	margin-bottom: 0px;
+  text-align: center;
+  margin-bottom: 0px;
 }
-.sH2 {
+.sH2{
 	font-weight: bolder;
-	color: #98dae2;
+	color: #CFFFA0;
 	letter-spacing: 15px;
 	font-size: 2.5rem;
-	text-align: center;
-	margin-bottom: 0px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.bottomlinework {
-	/* this div holds all of the bottom line work*/
-	margin-bottom: 0px;
-	height: 50px;
+.bottomlinework{ /* this div holds all of the bottom line work*/
+  transform: rotate(180deg);
+  margin-bottom: 0px;
+  height: 50px;
 }
 
-.bL1 {
-	border-top: 2px solid white;
-	width: 10%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.bL2 {
-	border-top: 2px solid white;
-	width: 25%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.bL3 {
-	border-top: 2px solid white;
-	width: 35%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-/* 4-6 are the skinny slim margin lines above the thick sL7 line */
-.bL4 {
-	border-top: 2px solid white;
-	width: 41%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.bL5 {
-	border-top: 2px solid white;
-	width: 44%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.bL6 {
-	border-top: 2px solid white;
-	width: 47%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.bL7 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	/* height: 45px; */
-	border-top: 8px solid white;
-	width: 50%;
-	position: relative;
-}
-
-.bl7::before {
-	content: '';
-	display: block;
-	position: absolute;
-	top: calc(0rem - 1px);
-	left: calc(50% - 1px);
-	width: 2px;
-	height: calc(2.5rem + 1px);
-	background: white;
-}
 /* iPhone MAX Media Query */
-/* @media screen and (max-width: 375px) {
-	.tl7 {
-		width: 50%;
-		border-top: 3px solid red;
-	}
-	.tl7::before {
-		height: calc(2.5rem + 2px);
-		top: calc(-2.6rem - 2px);
-		width: 1px;
-	}
+@media screen and (max-width: 414px) {
 	.sH1 {
 		letter-spacing: 6px;
-		font-size: 1rem;
-		color: aqua;
+		font-size: 1.5rem;
 	}
 	.sH2 {
 		letter-spacing: 10px;
-		font-size: .5rem;
-	}
-} */
-
-@media (max-width: 62em) {
-	.tl7 {
-		width: 55%;
-		border-top: 12px solid white;
-	}
-	.tl7::before {
-		height: calc(2.5rem + 2px);
-		top: calc(-2.6rem - 2px);
-		width: 1px;
-	}
-	.bl7 {
-		width: 55%;
-		border-top: 12px solid white;
-	}
-	.bl7::before {
-		height: calc(2.5rem + 2px);
-		top: calc(-2.6rem - 2px);
-		width: 1px;
-	}
+		font-size: 1rem;
+  }
+  .toplinework {
+    height: 40px;
+  }
+  .bottomlinework {
+    height: 40px;
+  }
+  .thickLine{
+    border-top: 4px solid white;
+    width: 70%;
+  }
+  .thickLine::before{
+    height: calc(2.3rem + 1px);
+    top: calc(-2rem - 8px);
+    width: 1px;
+  }
+  .line{
+    border-top: 1px solid white;
+  }
+  #l1 {
+    width: 20%;
+  }
+  #l2 {
+    width: 35%;
+  }
+  #l3 {
+    width: 45%;
+  }
+  
+  #l4 {
+    width: 55%;
+  }
+  #l5 {
+    width: 60%;
+  }
+  #l6 {
+    width: 65%;
+  }
+}
+/* SMALL SCREEN MEDIA QUERY */
+@media screen and (max-width: 320px) {
 	.sH1 {
 		letter-spacing: 6px;
-		font-size: 3.5rem;
+		font-size: 1.5rem;
 	}
 	.sH2 {
-		letter-spacing: 13px;
-		font-size: 2.5rem;
-	}
+		letter-spacing: 10px;
+		font-size: 1rem;
+  }
+  .toplinework {
+    height: 40px;
+  }
+  .bottomlinework {
+    height: 40px;
+  }
+  .thickLine{
+    border-top: 4px solid white;
+    width: 85%;
+  }
+  .thickLine::before{
+    height: calc(2.3rem + 1px);
+    top: calc(-2rem - 8px);
+    width: 1px;
+  }
+  .line{
+    border-top: 1px solid white;
+  }
+  #l1 {
+    width: 40%;
+  }
+  #l2 {
+    width: 50%;
+  }
+  #l3 {
+    width: 60%;
+  }
+  
+  #l4 {
+    width: 70%;
+  }
+  #l5 {
+    width: 75%;
+  }
+  #l6 {
+    width: 80%;
+  }
 }
 
 .bio {
