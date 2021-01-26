@@ -8,6 +8,11 @@
 	background-size: cover;
 	min-height: 100vh;
 	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.88;
+	/* position: relative; */
 }
 #BRAND {
 	font-size: 1.2rem;
@@ -23,6 +28,7 @@
 .nameDev {
 	margin-top: 0;
 	margin-bottom: 0;
+	text-shadow: 0 0 1px #000;
 }
 .links {
 	color: #a0ffff;
@@ -124,6 +130,9 @@
 /* ------------------------------------------------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
+	#city {
+
+	}
 	.socialList {
 		font-size: 1rem;
 	}
