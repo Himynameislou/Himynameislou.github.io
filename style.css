@@ -1,21 +1,21 @@
-* {
-	font-family: 'Mukta', sans-serif;
-}
 /* JS Navbar Scrolling CSS */
 .navbar.scrolled {
 	background: #a1cbdf;
 	transition: background 400ms;
 }
+*{
+	font-family: 'Mukta', sans-serif;
+}
 #city {
-	background: url('building.png');
-	background-size: cover;
-	min-height: 100vh;
-	position: relative;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: 0.88;
+	/* background: url('building.png'); */
 	/* position: relative; */
+	opacity: 0.88;
+	/* background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; */
+	min-height: 100vh;
+	background: transparent;
 }
 #BRAND {
 	font-size: 1.2rem;
@@ -31,7 +31,6 @@
 .nameDev {
 	margin-top: 0;
 	margin-bottom: 0;
-	text-shadow: 0 0 1px #000;
 }
 .links {
 	color: #a0ffff;
@@ -127,18 +126,13 @@
 	height: 50px;
 }
 /* -------------------------------- SECTION 2 ----------------------------------------------------------- */
-#Bio {
-	min-height: 50vh;
-	font-size: 1.5rem;
-	background-position: center;
-	/* background-attachment: fixed; */
-	background: #888f88;
+#Bio{
+	background-color: #dae298;
 }
 /* ------------------------------------------------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
-	#city {
-	}
+	# {}
 	.socialList {
 		font-size: 1rem;
 	}
