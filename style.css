@@ -1,3 +1,6 @@
+* {
+	font-family: 'Mukta', sans-serif;
+}
 /* JS Navbar Scrolling CSS */
 .navbar.scrolled {
 	background: #a1cbdf;
@@ -124,14 +127,17 @@
 	height: 50px;
 }
 /* -------------------------------- SECTION 2 ----------------------------------------------------------- */
-#Bio{
-	background-color: #dae298;
+#Bio {
+	min-height: 50vh;
+	font-size: 1.5rem;
+	background-position: center;
+	/* background-attachment: fixed; */
+	background: #888f88;
 }
 /* ------------------------------------------------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
 	#city {
-
 	}
 	.socialList {
 		font-size: 1rem;
