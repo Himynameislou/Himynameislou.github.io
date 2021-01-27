@@ -7,16 +7,10 @@
 	font-family: 'Mukta', sans-serif;
 }
 #city {
-	/* background: url('building.png'); */
-	/* position: relative; */
-	opacity: 0.88;
-	/* background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed; */
 	min-height: 100vh;
 	background: transparent;
 }
+
 #BRAND {
 	font-size: 1.2rem;
 	padding-top: 0;
@@ -128,6 +122,7 @@
 /* -------------------------------- SECTION 2 ----------------------------------------------------------- */
 #Bio{
 	background-color: #dae298;
+	min-height: 25vh;
 }
 /* ------------------------------------------------------------------------------------------------------ */
 /* iPhone MAX Media Query */
