@@ -6,10 +6,6 @@
 * {
 	font-family: 'Mukta', sans-serif;
 }
-#city {
-	min-height: 100vh;
-	background: transparent;
-}
 
 #BRAND {
 	font-size: 1.2rem;
@@ -21,7 +17,11 @@
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
-/* --------------------------------------- SECTION 1 --------------------------------------------------------------- */
+/* --------------------------------------- SECTION 1 ---------------------- */
+.city {
+	min-height: 100vh;
+	background: transparent;
+}
 .nameDev {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -119,12 +119,17 @@
 	margin-bottom: 0px;
 	height: 50px;
 }
-/* -------------------------------- SECTION 2 ----------------------------------------------------------- */
+/* -------------------------------- SECTION 2 ------------------*/
 #Bio {
 	background-color: #dae298;
 	font-size: 1.5rem;
 }
-/* ------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------Section 3 ----------------- */
+.work {
+	min-height: 100vh;
+	background: transparent;
+}
+/* ------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
 	# {
