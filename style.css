@@ -3,7 +3,7 @@
 	background: #a1cbdf;
 	transition: background 400ms;
 }
-*{
+* {
 	font-family: 'Mukta', sans-serif;
 }
 #city {
@@ -120,14 +120,15 @@
 	height: 50px;
 }
 /* -------------------------------- SECTION 2 ----------------------------------------------------------- */
-#Bio{
+#Bio {
 	background-color: #dae298;
-	min-height: 25vh;
+	font-size: 1.5rem;
 }
 /* ------------------------------------------------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
-	# {}
+	# {
+	}
 	.socialList {
 		font-size: 1rem;
 	}
