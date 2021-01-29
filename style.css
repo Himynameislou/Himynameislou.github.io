@@ -18,9 +18,16 @@
 	padding-bottom: 2px;
 }
 /* --------------------------------------- SECTION 1 ---------------------- */
-.city {
+#city {
+	background: url('building.png');
+	background-size: cover;
 	min-height: 100vh;
-	background: transparent;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.88;
+	/* position: relative; */
 }
 .nameDev {
 	margin-top: 0;
@@ -123,6 +130,18 @@
 #Bio {
 	background-color: #dae298;
 	font-size: 1.5rem;
+	min-height: 60vh;
+}
+.square {
+	margin-top: 36px;
+	background: #a1cbdf;
+	width: 1vh;
+	/* height: 150px; */
+	position: relative;
+	border-radius: 15px;
+}
+.square p {
+	margin-top: 20px;
 }
 /* ---------------------------------Section 3 ----------------- */
 .work {
@@ -132,7 +151,8 @@
 /* ------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
-	# {
+	#city {
+		background-attachment: scroll;
 	}
 	.socialList {
 		font-size: 1rem;
@@ -185,6 +205,9 @@
 }
 /* SMALL SCREEN MEDIA QUERY */
 @media screen and (max-width: 320px) {
+	#city {
+		background-attachment: scroll;
+	}
 	.socialList {
 		font-size: .7rem;
 	}
