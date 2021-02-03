@@ -3,6 +3,7 @@
 	background: #a1cbdf;
 	transition: background 400ms;
 }
+
 * {
 	font-family: 'Mukta', sans-serif;
 }
@@ -12,13 +13,15 @@
 	padding-top: 0;
 	padding-bottom: 0;
 }
+
 #NL {
 	font-size: 1rem;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+
 /* --------------------------------------- SECTION 1 ---------------------- */
-#city {
+.bg-layer {
 	background: url('building.png');
 	background-size: cover;
 	min-height: 100vh;
@@ -29,47 +32,59 @@
 	opacity: 0.88;
 	/* position: relative; */
 }
+
 .nameDev {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
 .links {
 	color: #a0ffff;
 }
+
 .links:hover {
 	color: #a0ffff;
 }
+
 .socialList {
 	padding-top: 1rem;
 	text-align: center;
 	color: #a0ffff;
 	font-size: 1.5rem;
 }
+
 #github {
 	padding: 1rem;
 }
+
 #linkedin {
 	padding: 1rem;
 }
+
 #file {
 	padding: 1rem;
 }
+
 .toplinework {
 	/* this div holds all of the top line work*/
 	margin-bottom: 0px;
 	height: 50px;
 }
+
 .line {
 	border-top: 2px solid white;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
 #l1 {
 	width: 10%;
 }
+
 #l2 {
 	width: 25%;
 }
+
 #l3 {
 	width: 35%;
 }
@@ -77,9 +92,11 @@
 #l4 {
 	width: 41%;
 }
+
 #l5 {
 	width: 44%;
 }
+
 #l6 {
 	width: 47%;
 }
@@ -111,6 +128,7 @@
 	text-align: center;
 	margin-bottom: 0px;
 }
+
 .sH2 {
 	font-weight: bolder;
 	color: #cfffa0;
@@ -126,12 +144,14 @@
 	margin-bottom: 0px;
 	height: 50px;
 }
+
 /* -------------------------------- SECTION 2 ------------------*/
 #Bio {
 	background-color: #dae298;
 	font-size: 1.5rem;
 	min-height: 60vh;
 }
+
 .square {
 	margin-top: 36px;
 	background: #a1cbdf;
@@ -140,55 +160,69 @@
 	position: relative;
 	border-radius: 15px;
 }
+
 .square p {
 	margin-top: 20px;
 }
+
 /* ---------------------------------Section 3 ----------------- */
 .work {
 	min-height: 100vh;
 	background: transparent;
 }
+
 /* ------------------------------------------------------------ */
 /* iPhone MAX Media Query */
 @media screen and (max-width: 414px) {
 	#city {
 		background-attachment: scroll;
 	}
+
 	.socialList {
 		font-size: 1rem;
 	}
+
 	.sH1 {
 		letter-spacing: 6px;
 		font-size: 1.5rem;
 	}
+
 	.sH2 {
 		letter-spacing: 10px;
 		font-size: 1rem;
 	}
+
 	.toplinework {
 		height: 40px;
 	}
+
 	.bottomlinework {
 		height: 40px;
 	}
+
 	.thickLine {
 		border-top: 4px solid white;
 		width: 70%;
 	}
+
 	.thickLine::before {
 		height: calc(2.3rem + 1px);
 		top: calc(-2rem - 8px);
 		width: 1px;
 	}
+
 	.line {
 		border-top: 1px solid white;
 	}
+
 	#l1 {
 		width: 20%;
 	}
+
 	#l2 {
 		width: 35%;
 	}
+
 	#l3 {
 		width: 45%;
 	}
@@ -196,53 +230,67 @@
 	#l4 {
 		width: 55%;
 	}
+
 	#l5 {
 		width: 60%;
 	}
+
 	#l6 {
 		width: 65%;
 	}
 }
+
 /* SMALL SCREEN MEDIA QUERY */
 @media screen and (max-width: 320px) {
 	#city {
 		background-attachment: scroll;
 	}
+
 	.socialList {
 		font-size: .7rem;
 	}
+
 	.sH1 {
 		letter-spacing: 6px;
 		font-size: 1.5rem;
 	}
+
 	.sH2 {
 		letter-spacing: 10px;
 		font-size: 1rem;
 	}
+
 	.toplinework {
 		height: 40px;
 	}
+
 	.bottomlinework {
 		height: 40px;
 	}
+
 	.thickLine {
 		border-top: 4px solid white;
 		width: 85%;
 	}
+
 	.thickLine::before {
 		height: calc(2.3rem + 1px);
 		top: calc(-2rem - 8px);
 		width: 1px;
 	}
+
 	.line {
 		border-top: 1px solid white;
 	}
+
 	#l1 {
 		width: 40%;
 	}
+
 	#l2 {
 		width: 50%;
 	}
+
 	#l3 {
 		width: 60%;
 	}
@@ -250,9 +298,11 @@
 	#l4 {
 		width: 70%;
 	}
+
 	#l5 {
 		width: 75%;
 	}
+
 	#l6 {
 		width: 80%;
 	}
